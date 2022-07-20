@@ -57,5 +57,12 @@ docker volume inspect <volume_name>
 docker volume rm -f <...volume_name>
 ```
 
+## Use container
+```
+docker exec -it <container_name> <command>
+```
+`<container_name>`: running container_name name
+`<command>`: `redis-cli`, other linux commands
+
 ## Docker Compose
 
